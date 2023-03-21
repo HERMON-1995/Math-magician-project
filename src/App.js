@@ -5,7 +5,7 @@ import Calculator from './component/calculator';
 
 class App extends React.Component {
   render() {
-    return (<Calculator />)
+    return (<Calculator />);
   }
 }
 
