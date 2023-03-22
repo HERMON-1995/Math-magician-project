@@ -1,7 +1,5 @@
-/* eslint-disable react/prop-types */
-/* eslint-disable react/prefer-stateless-function */
-/* eslint-disable max-classes-per-file */
 import React from 'react';
+import PropTypes from 'prop-types';
 import calculate from '../logic/calculate';
 
 class Calculator extends React.Component {
@@ -63,15 +61,27 @@ class Calculator extends React.Component {
   }
 }
 
-class Button extends React.Component {
-  render() {
-    const { value, onClick, className } = this.props;
-    return (
-      <button type="button" onClick={onClick} className={className}>
-        {value}
-      </button>
-    );
-  }
-}
+const Button = ({ value, onClick, className }) => (
+  <button type="button" onClick={onClick} className={className}>
+    {value}
+  </button>
+);
+
+Button.propTypes = {
+  value: PropTypes.string.isRequired,
+  onClick: PropTypes.func.isRequired,
+  className: PropTypes.string.isRequired,
+};
+
+// class Button extends React.Component {
+//   render() {
+//     const { value, onClick, className } = this.props;
+//     return (
+//       <button type="button" onClick={onClick} className={className}>
+//         {value}
+//       </button>
+//     );
+//   }
+// }
 
 export default Calculator;
