@@ -73,15 +73,4 @@ Button.propTypes = {
   className: PropTypes.string.isRequired,
 };
 
-// class Button extends React.Component {
-//   render() {
-//     const { value, onClick, className } = this.props;
-//     return (
-//       <button type="button" onClick={onClick} className={className}>
-//         {value}
-//       </button>
-//     );
-//   }
-// }
-
 export default Calculator;
