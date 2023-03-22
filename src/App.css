@@ -9,12 +9,19 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-auto-rows: 80px;
-  padding: 5%;
+  padding: 2% 5% 5% 5%;
   background-color: rgb(182, 182, 182);
   width: 60%;
   border-radius: 30px;
   grid-row-gap: 10px;
   grid-column-gap: 10px;
+}
+
+.title {
+  text-align: center;
+  grid-column: 1/5;
+  font-size: 50px;
+  margin-bottom: 10px;
 }
 
 button {
