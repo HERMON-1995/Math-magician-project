@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+.status {
+  text-align: center;
+}
+
 .quote-div {
   text-align: center;
   margin: 20px auto;
