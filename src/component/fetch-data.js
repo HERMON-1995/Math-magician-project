@@ -30,9 +30,9 @@ function Quote() {
     fetchData();
   }, [setIsLoading, setHasError]);
 
-  if (hasError) return <div>Something went wrong!</div>;
+  if (hasError) return <div className="status"><strong>Something went wrong!</strong></div>;
 
-  if (isLoading) return <div>Loading...</div>;
+  if (isLoading) return <div className="status"><strong>Loading...</strong></div>;
   const index = Date.now;
   return (
     <div>
