@@ -4,6 +4,17 @@
   box-sizing: border-box;
 }
 
+.status {
+  text-align: center;
+}
+
+.quote-div {
+  text-align: center;
+  margin: 20px auto;
+  font-size: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
 .calculator {
   margin: 20px auto;
   display: grid;
