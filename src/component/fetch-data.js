@@ -28,7 +28,7 @@ function Quote() {
       setIsLoading(false);
     };
     fetchData();
-  }, [setIsLoading, setHasError]);
+  }, [setData, setIsLoading]);
 
   if (hasError) return <div className="status"><strong>Something went wrong!</strong></div>;
 
