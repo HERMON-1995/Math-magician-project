@@ -8,20 +8,13 @@
   text-align: center;
 }
 
-.quote-div {
-  text-align: center;
-  margin: 20px auto;
-  font-size: 20px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
 .calculator {
   margin: 20px auto;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-auto-rows: 80px;
   padding: 2% 5% 5% 5%;
-  background-color: rgb(182, 182, 182);
+  background-color: rgb(43, 140, 173);
   width: 60%;
   border-radius: 30px;
   grid-row-gap: 10px;
@@ -71,4 +64,60 @@ button:hover {
 
 .operator:hover {
   background-color: rgb(176, 116, 4);
+}
+
+h1 {
+  font-size: 2em;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 2em 2em;
+  box-shadow: 10px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+nav ul {
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  color: rgb(44, 44, 44);
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+nav a.active {
+  color: rgb(43, 140, 173);
+  border-bottom: 2px solid rgb(43, 140, 173);
+}
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 2em 10em;
+  font-size: 1.3em;
+  gap: 40px;
+}
+
+.home-container h2 {
+  font-size: 2em;
+}
+
+.quote-container {
+  display: flex;
+  flex-direction: column;
+  margin-inline: auto;
+  width: 80%;
+  padding: 4em 9em;
+  font-size: 1.7em;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.author {
+  font-style: italic;
+  color: rgb(43, 140, 173);
 }
