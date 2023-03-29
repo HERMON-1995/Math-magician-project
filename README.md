@@ -112,7 +112,7 @@ npx stylelint "**/*.{css,scss}"
 
 ### Deployment
 
-- (Deployment method using GitHub pages)
+- (Deployment method using Render)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
