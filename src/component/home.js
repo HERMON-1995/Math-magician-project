@@ -2,7 +2,7 @@ import React from 'react';
 
 const HomePage = () => (
   <div className="home-container">
-    <h2>Welcome to our page!</h2>
+    <h2 className="bounce header">Welcome to our page!</h2>
     <p className="paragraph">
       The Math Magician Project is a professional-grade
       web application that provides
