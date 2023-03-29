@@ -12,5 +12,13 @@ describe('test on calculate.js function', () => {
       next: null,
       operation: null,
     });
+    test('= button', () => {
+      const output = calculate({
+        total: '5',
+        next: '5',
+        operation: '+',
+      }, '=');
+      expect(output.total).toBe('10');
+    });
   });
 });
