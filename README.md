@@ -1,4 +1,4 @@
-# Math-magician-project
+# Math magician project
 
 <a name="readme-top"></a>
 
@@ -27,9 +27,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Math-magician-project] <a name="about-project"></a>
+# 📖 [Math magician project] <a name="about-project"></a>
 
-**[Math-magician-project]** is a Single Page App (SPA) website for all fans of mathematics that allows users to make simple calculations and read a random math-related quote.
+**[Math magician project]** is a Single Page App (SPA) website for all fans of mathematics that allows users to make simple calculations and read a random math-related quote.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -49,8 +49,8 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **[calculation]**
-- **[read a quote]**
+- **[Calculation]**
+- **[Read a quote]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -163,7 +163,7 @@ If you like this project please show support by staring ⭐️.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-* we would like to give Microverse my sincerest gratitude for accommodating us in the Full-time Software Development program.
+* I would like to give Microverse my sincerest gratitude for accommodating me in the Full-time Software Development program.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
