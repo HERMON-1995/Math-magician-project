@@ -129,7 +129,7 @@ npx stylelint "**/*.{css,scss}"
 ## 👥 Authors <a name="authors"></a>
 
 👤 **Author1**
- *[HERMON Gebre]*
+ *[HERMON GEBRE]*
  
 - GitHub: [@githubhandle](https://github.com/HERMON-1995)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/hermon-gebre-03290a228/)
@@ -147,7 +147,7 @@ npx stylelint "**/*.{css,scss}"
 
 ## 🤝 Contributing <a name="contributing"></a>
 
-    - [Issues](https://github.com/HERMON-1995/Math-magician-project/issues)
+   - [Issues](https://github.com/HERMON-1995/Math-magician-project/issues)
     
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
