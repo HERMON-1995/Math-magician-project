@@ -132,7 +132,7 @@ npx stylelint "**/*.{css,scss}"
  *[HERMON GEBRE]*
  
 - GitHub: [@githubhandle](https://github.com/HERMON-1995)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/hermon-gebre-03290a228/)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/hermon-gebre)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
